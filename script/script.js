@@ -60,7 +60,7 @@ function handleInfo() {
         <h4><strong> ${mang[dem].name} </strong> ${mang[dem].job}</h4>
 `;
   img2.innerHTML = `
-<img class="avatar" src=${mang[dem].img} alt="" />
+<img class="avatar" src="${mang[dem].img}" alt="" />
 `;
 }
 handleInfo();
