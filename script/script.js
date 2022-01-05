@@ -5,7 +5,7 @@ let mang = [
 
     name: "Tanya Sinclair",
     job: "UX Engineer",
-    img: "/images/image-tanya.jpg",
+    img: "./images/image-tanya.jpg",
   },
 
   {
@@ -14,7 +14,7 @@ let mang = [
 
     name: "John Tarkpor",
     job: "Junior Front-end Developer",
-    img: "/images/image-john.jpg",
+    img: "./images/image-john.jpg",
   },
 
   {
