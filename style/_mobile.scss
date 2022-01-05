@@ -1,0 +1,86 @@
+@media screen and (max-width: 700.98px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 4rem;
+
+    background-image: url(../images/pattern-bg.svg),
+      url(../images/pattern-curve.svg), url(../images/pattern-quotes.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 50%, 40%, 15%;
+    background-position: top 20rem right 15%, bottom left, bottom 20rem center;
+  }
+
+  /* ---------------------------------- tit;e --------------------------------- */
+  .title {
+    text-align: center;
+
+    h4 {
+      line-height: 1.6;
+    }
+
+    strong {
+      margin-top: 1rem;
+      display: block;
+    }
+  }
+
+  /* -------------------------------- .picture -------------------------------- */
+  .picture {
+    // button
+    .pit-bt {
+      left: 0%;
+
+      img {
+        padding: 0.8rem 1.8rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500.98px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 4rem;
+
+    background-image: url(../images/pattern-bg.svg),
+      url(../images/pattern-curve.svg), url(../images/pattern-quotes.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 50%, 40%, 15%;
+    background-position: top 12rem right 15%, bottom left, bottom 20rem center;
+  }
+}
+@media screen and (max-width: 440.98px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 4rem;
+
+    background-image: url(../images/pattern-bg.svg),
+      url(../images/pattern-curve.svg), url(../images/pattern-quotes.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 50%, 40%, 15%;
+    background-position: top 12rem right 15%, bottom left, bottom 51% center;
+  }
+}
+@media screen and (max-width: 375.98px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 4rem;
+
+    background-image: url(../images/pattern-bg.svg),
+      url(../images/pattern-curve.svg), url(../images/pattern-quotes.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 50%, 40%, 15%;
+    background-position: top 10rem right 15%, bottom left, bottom 58% center;
+  }
+}
